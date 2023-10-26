@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "power-virtual-agent-spfx-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/powerVirtualAgentSpfx/PowerVirtualAgentSpfxWebPart.js",
+          "manifest": "./src/webparts/powerVirtualAgentSpfx/PowerVirtualAgentSpfxWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "PowerVirtualAgentSpfxWebPartStrings": "lib/webparts/powerVirtualAgentSpfx/loc/{locale}.js"
+  }
+}

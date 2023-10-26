@@ -1,0 +1,68 @@
+@import "~@fluentui/react/dist/sass/References.scss";
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.headingTextBot {
+  font-size: 26px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+  padding: 10px;
+}
+
+.heading {
+  background-color: #737373;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.botContainer {
+  position: relative;
+  height: 700px;
+  width: 600px;
+}
+
+.webchat {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: calc(100% - 50px);
+  width: 100%;
+  border: 4px solid #737373;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

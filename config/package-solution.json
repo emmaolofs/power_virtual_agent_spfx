@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "power-virtual-agent-spfx-client-side-solution",
+    "id": "0d8c6e32-ae76-406a-9740-58bd64a1eea6",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.4"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "power-virtual-agent-spfx description"
+      },
+      "longDescription": {
+        "default": "power-virtual-agent-spfx description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "power-virtual-agent-spfx Feature",
+        "description": "The feature that activates elements of the power-virtual-agent-spfx solution.",
+        "id": "65c36c1b-6972-48af-a658-de4c0d93b4fe",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/power-virtual-agent-spfx.sppkg"
+  }
+}

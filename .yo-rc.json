@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.15.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.9.1"
+    },
+    "version": "1.17.4",
+    "libraryName": "power-virtual-agent-spfx",
+    "libraryId": "0d8c6e32-ae76-406a-9740-58bd64a1eea6",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "power-virtual-agent-spfx",
+    "solutionShortDescription": "power-virtual-agent-spfx description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
